@@ -24,7 +24,7 @@ if (hits == 3) {
     alert("Ты утопил мой корабль!");
 }
 }
-
+ 
 let stats = "You took " + guesses + " guesses to sink the battleship, " + "wich means your shooting accuracy was " + (3/guesses);
 
 alert(stats);
