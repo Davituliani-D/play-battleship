@@ -1,6 +1,7 @@
-const location1 = 3;
-const location2 = 4;
-const location3 = 5;
+const randomLoc = Math.floor(Math.random() * 5);
+const location1 = randomLoc;
+const location2 = randomLoc + 1;
+const location3 = randomLoc + 1;
 let guess;
 let hits = 0;
 let guesses = 0;
@@ -25,6 +26,6 @@ if (hits == 3) {
 }
 }
  
-let stats = "Вы потопили линкор за " + guesses + " хода, значит, " + "ваша точность равна: " + (3/guesses);
+let stats = "Вы потопили линкор за " + guesses + " хода,значит, " + "ваша точность равна: " + (3/guesses);
 
 alert(stats);
