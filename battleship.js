@@ -25,6 +25,6 @@ if (hits == 3) {
 }
 }
  
-let stats = "You took " + guesses + " guesses to sink the battleship, " + "wich means your shooting accuracy was " + (3/guesses);
+let stats = "Вы потопили линкор за " + guesses + " хода, значит, " + "ваша точность равна: " + (3/guesses);
 
 alert(stats);
